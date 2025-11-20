@@ -11,7 +11,7 @@ menuBtn.onclick = () => {
 
 // THEME SWITCHER
 const themeSelect = document.getElementById("theme-switcher");
-const savedTheme = localStorage.getItem("theme") || "light";
+const savedTheme = localStorage.getItem("theme") || "blue";
 
 document.body.className = savedTheme;
 themeSelect.value = savedTheme;
